@@ -90,8 +90,8 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  <<: *default
-  database: food_roulette_production
-  username: food_roulette
-  password: <%= ENV['FOOD_ROULETTE_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: food_roulette_production
+#   username: food_roulette
+#   password: <%= ENV['FOOD_ROULETTE_DATABASE_PASSWORD'] %>
