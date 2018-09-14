@@ -91,7 +91,5 @@ DATABASE_URL="postgres://fgmycrdbsmztoa:4ebe09703a53ae99f05006af4c238de2f17c137c
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: food_roulette_production
-  username: food_roulette
-  password: <%= ENV['FOOD_ROULETTE_DATABASE_PASSWORD'] %>
+  secret_key_base: f0fdbd8cec6271f578639d365b8f5bb4b3a081b7c8ea3be466f0ffbbec74bceda7c65cf88464bb5666449d7215e94ede1d3983bbfeb
+5d4eef4f37e3b8d193dc1
